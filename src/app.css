@@ -13,7 +13,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --shadow-color: lavender;
+
+@media (prefers-color-scheme: dark) {
+  --shadow-color: darkgrey;
 }
+}
+
 
 a {
   font-weight: 500;

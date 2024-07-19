@@ -15,6 +15,12 @@
         /* height: fit-content; */
     }
 
+    @media (prefers-color-scheme: dark) {
+    .header {
+        background-color: darkblue;
+    }
+}
+
     .title {
         margin: 0;
         padding-block: 1rem;

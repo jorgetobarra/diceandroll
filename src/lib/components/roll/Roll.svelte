@@ -40,7 +40,7 @@
     padding: 1rem;
     border-radius: 10px;
     border: solid 2px black;
-    box-shadow: 0.5rem 0.5rem lavender;
+    box-shadow: 0.5rem 0.5rem var(--shadow-color);
   }
   /* The Modal (background) */
   .modal {

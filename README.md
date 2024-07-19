@@ -60,5 +60,7 @@ firebase login
 
 3. Deploy in Firebase hosting
 ```
+npm run build
+cd dist
 firebase deploy
 ```

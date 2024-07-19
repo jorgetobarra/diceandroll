@@ -34,6 +34,6 @@
     font-size: 1rem;
     margin-block: 1rem;
     border: solid 2px black;
-    box-shadow: 0.5rem 0.5rem lavender;
+    box-shadow: 0.5rem 0.5rem var(--shadow-color);
   }
 </style>
