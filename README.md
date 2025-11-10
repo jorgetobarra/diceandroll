@@ -1,25 +1,12 @@
-# Svelte + TS + Vite
+# Dice n Roll
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+Tech stack: Svelte + TS + Vite
 
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
 
-## Need an official Svelte framework?
-
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
-
 ## Technical considerations
-
-**Why use this over SvelteKit?**
-
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
-
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
-
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
 
 **Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
 
@@ -49,17 +36,20 @@ export default writable(0)
 ## To deploy in Firebase
 
 1. Install Firebase CLI
-```
+
+```bash
 npm install -g firebase-tools
 ```
 
 2. Login with Firebase CLI
-```
+
+```bash
 firebase login
 ```
 
 3. Deploy in Firebase hosting
-```
+
+```bash
 npm run build
 cd dist
 firebase deploy
