@@ -54,3 +54,15 @@ npm run build
 cd dist
 firebase deploy
 ```
+
+## Screenshots
+
+### Main page
+
+![Main page](./screenshots/main_page.png)
+
+### Roll modal
+
+![Roll modal](./screenshots/roll_modal.png)
+
+Also available on light mode
