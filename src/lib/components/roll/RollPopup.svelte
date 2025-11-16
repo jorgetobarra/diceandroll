@@ -53,7 +53,9 @@
         </p>
       {/if}
     {/each}
-    <button on:click={() => random(names)} style="margin-block: 1rem"> Randomize again </button>
+    <button on:click={() => random(names)} style="margin-block: 1rem">
+      Randomize again
+    </button>
   </div>
 </div>
 
@@ -61,13 +63,13 @@
   p {
     margin: 0.5rem;
   }
-  /* Modal Content/Box */
+
   .modal {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    background-color: var(--background-color);
+    margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 80%;
   }
   .modal-content {
     display: flex;
@@ -78,7 +80,6 @@
     flex-direction: row;
   }
 
-  /* The Close Button */
   .close {
     color: #aaa;
     float: right;
